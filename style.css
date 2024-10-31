@@ -1,0 +1,63 @@
+/* Body and Calculator Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    background-color: rgb(230, 222, 173);
+  }
+  
+  .calculator {
+    width: 320px; /* Adjust width to fit 4 buttons in a row */
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Display Area Styling */
+  .display {
+    background-color: #222;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons Section: Grid Layout */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four buttons per row */
+    gap: 1px; /* Small gap between buttons */
+  }
+  
+  /* Button Styling */
+  .btn {
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Special button colors */
+  #clear {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  #equal {
+    background-color: #4caf50;
+    color: white;
+  }
+  
